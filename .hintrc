@@ -3,6 +3,9 @@
     "development"
   ],
   "hints": {
-    "button-type": "off"
+    "button-type": "off",
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/is-valid": "off",
+    "typescript-config/strict": "off"
   }
 }
