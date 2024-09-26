@@ -19,6 +19,9 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      "no-unused-vars": "off", 
+      '@typescript-eslint/explicit-module-boundary-types': 'off', // Example rule
+        "react/prop-types": "off", // Disable prop-types rule in React
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
