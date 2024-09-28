@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="w-full bg-slate-900 py-4 font-[Jost] shadow-md sticky top-0">
+            <nav className="w-full bg-slate-900 py-4 font-[Jost] shadow-md sticky top-0 z-40">
                 <div className="max-w-[80rem] w-full mx-auto flex justify-between items-center px-4">
                     <h1 className="text-white font-semibold text-2xl sm:text-3xl">FutureAce.</h1>
 
