@@ -1,23 +1,13 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
-import Navbar from './Components/navigationbar'; // Adjust the import path as needed
-
-export default function App() {
+import Navbar from "./Components/navigationbar";
+import FormContainer from "./Components/FormContainer";
+function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <header>
-        <Navbar />
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </header>
-
-      <main className="flex-grow">
-
-      </main>
-
-    </div>
-  );
+    <>
+      {/* <div className="text-center">Hello World !!</div> */}
+      <Navbar />
+      <FormContainer />
+    </>
+  )
 }
+
+export default App;
