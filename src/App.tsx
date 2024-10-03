@@ -3,7 +3,6 @@ import FormContainer from "./Components/FormContainer";
 function App() {
   return (
     <>
-      {/* <div className="text-center">Hello World !!</div> */}
       <Navbar />
       <FormContainer />
     </>
